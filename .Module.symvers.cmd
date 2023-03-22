@@ -1,0 +1,1 @@
+cmd_/home/joelc/CN/shutdown_restart_driver/Module.symvers := sed 's/ko$$/o/' /home/joelc/CN/shutdown_restart_driver/modules.order | scripts/mod/modpost -m -a  -o /home/joelc/CN/shutdown_restart_driver/Module.symvers -e -i Module.symvers   -T -

@@ -1,0 +1,1 @@
+cmd_/home/joelc/CN/shutdown_restart_driver/shutdown.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/joelc/CN/shutdown_restart_driver/shutdown.ko /home/joelc/CN/shutdown_restart_driver/shutdown.o /home/joelc/CN/shutdown_restart_driver/shutdown.mod.o;  true
